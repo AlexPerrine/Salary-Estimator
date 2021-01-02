@@ -13,4 +13,3 @@ During a meeting with your manager you ask if you can help. You ask what data so
 
 At this point the company needs to fill some roles, so your manager hands over the data they use for determining the salaries for their intitial offer letters.
 
----
