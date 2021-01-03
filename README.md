@@ -1,9 +1,9 @@
 # Salary-Estimator
 
 ### Project Overview
-Created a tool for fictitious ABC company to estimate salaries (MSE of 356) while building offer letters for potential employees.
-Built a Pipeline to sequentially OneHotEncode with a ColumnTransformer and fit to different models.
-Used RandomizedSearchCV to optimize Random Forests, Gradient Boosting and used GridSearchCV to optimize n_estimators for XGBoost to reach the best model.
+- Created a tool for fictitious ABC company to estimate salaries (MSE of 356) while building offer letters for potential employees.
+- Built a Pipeline to sequentially OneHotEncode with a ColumnTransformer and fit to different models.
+- Used RandomizedSearchCV to optimize Random Forests, Gradient Boosting and used GridSearchCV to optimize n_estimators for XGBoost to reach the best model.
 
 ---
 ### Scenario
