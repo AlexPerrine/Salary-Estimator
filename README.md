@@ -1,7 +1,7 @@
 # Salary-Estimator
 
 ### Project Overview
-- Created a tool for fictitious ABC company to estimate salaries (MSE of 356) while building offer letters for potential employees.
+- Created a tool for fictitious ABC company to estimate salaries (insert the MAE) while building offer letters for potential employees.
 - Built a Pipeline to sequentially OneHotEncode with a ColumnTransformer and fit to different models.
 - Used RandomizedSearchCV to optimize Random Forests, Gradient Boosting and used GridSearchCV to optimize n_estimators for XGBoost to reach the best model.
 
@@ -13,5 +13,5 @@ Why? Why spend all the time in the 3 interviews to turn down the offer? Is the c
 
 During a meeting with your manager you ask if you can help. You ask what data source we are using to come up with the salaries that we are offering. You explain to your manager how you can use their data to build a regression model to help predict more of an accurate starting salary to offer. Maybe the issue is people get offended by the lower than expected salary and instantly decline.
 
-At this point the company needs to fill some roles, so your manager hands over the data they use for determining the salaries for their intitial offer letters.
+At this point the company needs to fill some roles, so your manager hands over the data they use for determining the salaries for their intitial offer letters. To show how much the predicted value is from the actual value, I will use Mean Absolute Error. This will allow me to describe to my manager the actual dollar amount error the model has.
 
