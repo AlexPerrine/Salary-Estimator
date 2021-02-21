@@ -12,4 +12,4 @@ Obviously, reducing the objective function (mean absolute error) is the desired 
 ---
 ### EDA
 
-<img src="https://media.giphy.com/media/yDaNAFetCCDs4oYMe9/giphy.gif" width = "400" height = "400" />
+<img src="https://media.giphy.com/media/yDaNAFetCCDs4oYMe9/giphy.gif" width = "650" height = "400" />
