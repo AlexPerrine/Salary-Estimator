@@ -12,4 +12,4 @@ Obviously, reducing the objective function (mean absolute error) is the desired 
 ---
 ### EDA
 
-![Alt Text](https://giphy.com/gifs/yDaNAFetCCDs4oYMe9)
+![Alt Text](https://giphy.com/gifs/yDaNAFetCCDs4oYMe9.gif)
