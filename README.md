@@ -1,4 +1,4 @@
-# Salary-Estimator
+# Salary Estimator
 - Created a baseline model to predict MAE by predicting set values of 50k, 100k, the mean, 150k and 200k. 
 - Demonstrated different ways to reduce model complexity of Linear Regression, Lasso Regression and Gradient Boosting while reducing the Mean Absolute Error.
 - The best model reduced the MAE to 15.33.
@@ -17,6 +17,8 @@ I started the exploratory data analysis by building violin charts. These charts 
 
 To be able to build the correlation heatmap I used Leave One Out Encoding on the categorical features. We can see that the type of job is the most correlated with salaries.
 
+![Screenshot](LeaveOneOutCorrelations.png)
+
 ### Modeling
 I first transformed the categorical variables. To do so I used the column transformer to one hot encode the categorical features and left the numerical features alone. I did not split the data as I had a training and a test set to start with. 
 
@@ -32,11 +34,11 @@ I used 3 different models to show different ways to not use all the features, tu
 
   **Linear Regression** For each iteration of a for loop, using SelectKBest a feature was added based on the F-Score and calculated a new MAE. As you can see from the chart, the more features the lower the MAE went. But you can also see that the reduction also became flat after using the best 28 features. The best model factoring in complexity and MAE was with 28 features and MAE ~ 
 
-  (Insert Linear Regression image)
+ ![Screenshot](LinearNumFeatures.png)
  
   **Lasso Regression** For each iteration of a for loop I increased the alpha parameter, regularization, of the lasso regression model. We can see that the more penalized the model gets the worse the MAE. With the alpha at .01 we almost using a linear regression model, but with a tiny amount of regularization.
 
-  (insert lasso regression image)
+  ![Screenshot](LassoMAE.png)
 
   **Gradient Boosting** To show the effects of early stopping has on gradient boosting, I ran a model with and without stopping early. What early stopping does, is if after a user defined number of iterations the loss function (in this case MAE) does not improve by a user defined tolerance the model stops running.
 
@@ -44,7 +46,7 @@ I used 3 different models to show different ways to not use all the features, tu
 
   If after 25 boosting stages the model did not improve by .001, the model stopped running.
 
-  (insert early stopping image)
+  ![Screenshot](EarlyStopping.png)
 
 ### Future Ideas
 I'd first like to iterate to my manager, in this scenario, that we can build a model but we still do need to use human intuition because models are not 100% correct all the time.
