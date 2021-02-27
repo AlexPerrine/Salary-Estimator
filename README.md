@@ -46,7 +46,7 @@ I used 3 different models to show different ways to not use all the features, tu
 
   If after 25 boosting stages the model did not improve by .001, the model stopped running.
   
-![Screenshot](EarlyStopping1.png)
+![Screenshot](EarlyStopping.png)
 
 ### Future Ideas
 I'd first like to iterate to my manager, in this scenario, that we can build a model but we still do need to use human intuition because models are not 100% correct all the time.
