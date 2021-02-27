@@ -54,6 +54,3 @@ I'd first like to iterate to my manager, in this scenario, that we can build a m
   - I think if the data were more similar in the job types we would be able to reduce the MAE even more. What I mean is if we are hiring for a specific position, gather data for similar roles not ranging from CEO to janitor.
   - As always, I'd like to build an artificial neural network. Maybe
   - For gradient boosting I would also like to optimize the other hyper parameters.
-
-### Code & Resources
-**Code Framework**: pip install -r requirements.txt
