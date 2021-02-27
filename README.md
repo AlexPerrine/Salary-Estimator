@@ -25,14 +25,14 @@ I first transformed the categorical variables. To do so I used the column transf
 I used 3 different models to show different ways to not use all the features, tune or stop training early. I chose to evaluate the models on MAE (mean absolute error) because it is relatively easy to explain in terms of money to business people. And outliers do not affect very much.
 
 **Baseline** - Used to predict a constant value to see if more complex models obtain a better result. The goal is to use more complex models to beat the baseline models. I used 5 different constant predictors:
-    - 50K: MAE = 66.14
-    - 100K: MAE = 32.91
-    - 116 (average): MAE = 31.01
-    - 150K: MAE 43.14
-    - 200K: MAE = 84.69
-  We can see that using the average as a constant predictor obtained the best MAE.
+- 50K: MAE = 66.14
+- 100K: MAE = 32.91
+- 116 (average): MAE = 31.01
+- 150K: MAE 43.14
+- 200K: MAE = 84.69
+We can see that using the average as a constant predictor obtained the best MAE.
 
-  **Linear Regression** For each iteration of a for loop, using SelectKBest a feature was added based on the F-Score and calculated a new MAE. As you can see from the chart, the more features the lower the MAE went. But you can also see that the reduction also became flat after using the best 28 features. The best model factoring in complexity and MAE was with 28 features and MAE ~ 
+  **Linear Regression** For each iteration of a for loop, using SelectKBest a feature was added based on the F-Score and calculated a new MAE. As you can see from the chart, the more features the lower the MAE went. But you can also see that the reduction also became flat after using the best 28 features. The best model factoring in complexity and MAE was with 28 features and MAE ~ 15.84437.
 
  ![Screenshot](LinearNumFeatures.png)
  
