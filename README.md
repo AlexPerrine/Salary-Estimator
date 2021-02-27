@@ -45,8 +45,8 @@ I used 3 different models to show different ways to not use all the features, tu
   We can see here that after 354 iterations the model stopped running and was only .005 worse than when the model ran for 1000 boosting stages.
 
   If after 25 boosting stages the model did not improve by .001, the model stopped running.
-
-  ![Screenshot](/EarlyStopping1/.png)
+  
+  ![alt text](<EarlyStopping1.jpg>)
 
 ### Future Ideas
 I'd first like to iterate to my manager, in this scenario, that we can build a model but we still do need to use human intuition because models are not 100% correct all the time.
