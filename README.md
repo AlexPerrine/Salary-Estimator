@@ -42,7 +42,7 @@ I used 3 different models to show different ways to not use all the features, tu
 
   **Gradient Boosting** To show the effects of early stopping has on gradient boosting, I ran a model with and without stopping early. What early stopping does, is if after a user defined number of iterations the loss function (in this case MAE) does not improve by a user defined tolerance the model stops running.
 
-  We can see here that after 354 iterations the model stopped running and was only .005 worse than when the model ran for 1000 boosting stages.
+  We can see here that after 395 iterations the model stopped running and was only .045 worse than when the model ran for 1000 boosting stages.
 
   If after 25 boosting stages the model did not improve by .001, the model stopped running.
   
