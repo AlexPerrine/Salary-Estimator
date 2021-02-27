@@ -40,7 +40,7 @@ I used 3 different models to show different ways to not use all the features, tu
 
   **Gradient Boosting** To show the effects of early stopping has on gradient boosting, I ran a model with and without stopping early. What early stopping does, is if after a user defined number of iterations the loss function (in this case MAE) does not improve by a user defined tolerance the model stops running.
 
-  We can see here that after 354 iterations the model stopped running and was only .005 worse than when the model ran for 1000 boosting stages.
+  We can see here that after 395 iterations the model stopped running and was only .045 worse than when the model ran for 1000 boosting stages.
 
   If after 25 boosting stages the model did not improve by .001, the model stopped running.
 
@@ -52,6 +52,3 @@ I'd first like to iterate to my manager, in this scenario, that we can build a m
   - I think if the data were more similar in the job types we would be able to reduce the MAE even more. What I mean is if we are hiring for a specific position, gather data for similar roles not ranging from CEO to janitor.
   - As always, I'd like to build an artificial neural network. Maybe
   - For gradient boosting I would also like to optimize the other hyper parameters.
-
-### Code & Resources
-**Code Framework**: pip install -r requirements.txt
